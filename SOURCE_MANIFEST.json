@@ -1,0 +1,237 @@
+[
+    {
+        "path":  "LICENSE",
+        "bytes":  35149,
+        "sha256":  "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+    },
+    {
+        "path":  "UPSTREAM_COPYRIGHT.txt",
+        "bytes":  82,
+        "sha256":  "86865b46fe048b36453868979dd6cdafee0348460ace1bc8c2cd97395525363b"
+    },
+    {
+        "path":  "applications/continuum/GNUmakefile",
+        "bytes":  639,
+        "sha256":  "5c73fcac99944d892b4cbb004286ffcf183e2544e341e286bf7a2784fd591a6b"
+    },
+    {
+        "path":  "applications/continuum/program.cpp",
+        "bytes":  4336,
+        "sha256":  "83239daa5fc65810d48ac80ad7868c9792c04927c955fac2372c3d24f3b72b8d"
+    },
+    {
+        "path":  "applications/discrete/GNUmakefile",
+        "bytes":  639,
+        "sha256":  "5c73fcac99944d892b4cbb004286ffcf183e2544e341e286bf7a2784fd591a6b"
+    },
+    {
+        "path":  "applications/discrete/program.cpp",
+        "bytes":  4152,
+        "sha256":  "45d81938ab462c002bb3d45e2d8e0464962df858d7bb3ae0c00d91db565a77a1"
+    },
+    {
+        "path":  "docs/source_snapshot.json",
+        "bytes":  2424,
+        "sha256":  "ba09b658ab106929a5f7b443046915d9673f51ebbdc260ffedf513a29a007214"
+    },
+    {
+        "path":  "docs/upstream_CITATION.cff",
+        "bytes":  842,
+        "sha256":  "41ec5f7aa7e0862a902fd317496bbb9c560f10f850ed058c843e57b5bfe08e2d"
+    },
+    {
+        "path":  "examples/continuum_r3_only/V_Omori_single_str.dat",
+        "bytes":  3196,
+        "sha256":  "5f333c31e1959b5f1835c68f39f3457aff6235ee97bb899cca350e23f2666e10"
+    },
+    {
+        "path":  "examples/continuum_r3_only/bolsig_m253_ist_omori.dat",
+        "bytes":  4340870,
+        "sha256":  "e1e004d3c64205470adbc8b2a0cf0fc610b07093130e67e41331ec5e871da742"
+    },
+    {
+        "path":  "examples/continuum_r3_only/chemistry/r4z.json",
+        "bytes":  39605,
+        "sha256":  "9b8df47597c537f5e2f71f4f258a215a50d13146884d2081d293544b449cc175"
+    },
+    {
+        "path":  "examples/continuum_r3_only/inputs/r4z.inputs",
+        "bytes":  19304,
+        "sha256":  "a2b7494b94baa49a454a0f4fce93bfc993ebb4cc9d33b4f2326539a2f438168c"
+    },
+    {
+        "path":  "examples/continuum_r3_r4/V_Omori_single_str.dat",
+        "bytes":  3196,
+        "sha256":  "5f333c31e1959b5f1835c68f39f3457aff6235ee97bb899cca350e23f2666e10"
+    },
+    {
+        "path":  "examples/continuum_r3_r4/bolsig_m253_ist_omori.dat",
+        "bytes":  4340870,
+        "sha256":  "e1e004d3c64205470adbc8b2a0cf0fc610b07093130e67e41331ec5e871da742"
+    },
+    {
+        "path":  "examples/continuum_r3_r4/chemistry/r4m21.json",
+        "bytes":  39613,
+        "sha256":  "d5802c7c92de7644697b30c50e91dcf5c18f78cec3fb649f2565612003885363"
+    },
+    {
+        "path":  "examples/continuum_r3_r4/inputs/r4m21.inputs",
+        "bytes":  19312,
+        "sha256":  "53a3542b57290965b9ec5a9e5a80690069facf5b2cc9372c0f5d540a4546ec5f"
+    },
+    {
+        "path":  "examples/discrete_mixture/V_Omori_single_str.dat",
+        "bytes":  3196,
+        "sha256":  "5f333c31e1959b5f1835c68f39f3457aff6235ee97bb899cca350e23f2666e10"
+    },
+    {
+        "path":  "examples/discrete_mixture/bolsig_co2_n2.dat",
+        "bytes":  1139837,
+        "sha256":  "89c1317799b9763331fe9bc5087830050f025027b8d74ca82f830e9c612d045c"
+    },
+    {
+        "path":  "examples/discrete_mixture/fresh_l0_g1.inputs",
+        "bytes":  20961,
+        "sha256":  "90847b73a22a46b52c35855ba53dc0ba704ab094f7c36777c65b5bb95b25ab7c"
+    },
+    {
+        "path":  "examples/discrete_mixture/mix_N2_25p3_CO3m1E8.json",
+        "bytes":  30523,
+        "sha256":  "daaf977cd5a3ecd8b3c8c89f8d4bd1df33dc4d80b35390923ec3245e724fcaca"
+    },
+    {
+        "path":  "examples/discrete_pure/V_Omori_single_str.dat",
+        "bytes":  3196,
+        "sha256":  "5f333c31e1959b5f1835c68f39f3457aff6235ee97bb899cca350e23f2666e10"
+    },
+    {
+        "path":  "examples/discrete_pure/bolsig_pure_co2.dat",
+        "bytes":  2144643,
+        "sha256":  "aa3939403564520dbf9c545b55554222a87ef4d1f8aa3c79359430a7c3d976e4"
+    },
+    {
+        "path":  "examples/discrete_pure/pure_CO3m1E8.inputs",
+        "bytes":  20963,
+        "sha256":  "e206e1d0e37bb5fc58d5d7da36c4ace7023195d5b277d0b442f04d03d8ea155c"
+    },
+    {
+        "path":  "examples/discrete_pure/pure_CO3m1E8.json",
+        "bytes":  30660,
+        "sha256":  "be95724d964b55646d5d4a40de7de3464132971b724c8df7e32161d41c22ee33"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/CD_CdrPlasmaPhysics.H",
+        "bytes":  13646,
+        "sha256":  "6eb6ba31935c7ff8f93fc1ceb46ba90798cc3bf1990c1b6c208f346b69e1d592"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/CD_CdrPlasmaStepper.H",
+        "bytes":  63584,
+        "sha256":  "07f114c6ef369b4f5fc8c19bc113ca73e24416fe1e739680cc108adc671d4f44"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/CD_CdrPlasmaStepper.cpp",
+        "bytes":  206695,
+        "sha256":  "5b4c567fdf8fc3fc1be7fd81bdef0965dea8193ecb07b959032ff399ccccfd2e"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaJSON.H",
+        "bytes":  61562,
+        "sha256":  "cb7e50b9c1c77a0af459e1421b30a4b77b291f69635f4fcd74cce35540b8656a"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaJSON.cpp",
+        "bytes":  239203,
+        "sha256":  "414791c2d9366ec30924f4faae49e091ca916166de29aacbebdcb53fa9377d04"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaPhotoReactionJSON.H",
+        "bytes":  4738,
+        "sha256":  "f5638af41f859104cb0bd8fb78ae5f62b9201b95a485d288a8bb53721ac7ee2b"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaPhotoReactionJSON.cpp",
+        "bytes":  2561,
+        "sha256":  "ea4b30c03b5ea67514033a6c1da82cc3a470d9c1c5884a4e01ed18979b7c0e66"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/Timesteppers/CdrPlasmaGodunovStepper/CD_CdrPlasmaGodunovStepper.cpp",
+        "bytes":  63760,
+        "sha256":  "d18a472c951cee5291cd2daa9d5fb0e74eaf87f6bc38d5bb7355d974eed482c6"
+    },
+    {
+        "path":  "solver_overlay/Physics/CdrPlasma/Timesteppers/CdrPlasmaImExSdcStepper/CD_CdrPlasmaImExSdcStepper.cpp",
+        "bytes":  74097,
+        "sha256":  "bd7a777d7bddba827f4aa23dd26f845e114747b61ea22607f7282e8870cbc7bd"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBC.H",
+        "bytes":  6116,
+        "sha256":  "f2bb1d7fcf22594e04eaa6ff698f7d2aae2082e2c771b9dfa5f890f27a309479"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBC.cpp",
+        "bytes":  6168,
+        "sha256":  "77c7b6f9b3d84a2a1720071acda87b5ac414a2a8807e2df35e77736c8a37f2e8"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBCFactory.H",
+        "bytes":  3596,
+        "sha256":  "b47f06287d1d5019a42e6771fffab1df00af5293250d7d1a5cfb251c50de7f1e"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBCFactory.cpp",
+        "bytes":  1467,
+        "sha256":  "305d2f6f39d970e0fae185a64d507c90921b3811e1f624e78d4a8223e2f235ba"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBC.H",
+        "bytes":  3723,
+        "sha256":  "478c4907f56bba14827013b2b0b8087890f48c5045f06ae6cf4e27bfccfed4fd"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBC.cpp",
+        "bytes":  4136,
+        "sha256":  "fc1393d68374ba3a2ae53faf81b09cf8bed8c23a6abd8c4a36353678939c4d39"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBCFactory.H",
+        "bytes":  4141,
+        "sha256":  "d99e4aa7d793e7e1db596a341a49e6d0932e05a8f6b76aab51ebfe1e5444fdba"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBCFactory.cpp",
+        "bytes":  2916,
+        "sha256":  "cf0d86198d0e902f13b9b8b9b1a5e655c96fc7d06f28d0cf19365751443444b9"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenEBBCFactory.H",
+        "bytes":  3923,
+        "sha256":  "b1d65a9f412d79552a52f539b1acb24993336afc4f9cd4fe8c5f25a40814e540"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EBHelmholtzLarsenEBBCFactory.cpp",
+        "bytes":  3696,
+        "sha256":  "3bc008eaf2ea80d27e28a93a2f74af764d47280bcaa3f356c539ddcb44a64e10"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EddingtonSP1.H",
+        "bytes":  15418,
+        "sha256":  "265e6754140d9c844ea7f73315277d9db85f234a5e4f1a9f1090449020fd96c9"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_EddingtonSP1.cpp",
+        "bytes":  58454,
+        "sha256":  "7dc3d69368df6f1be0ea08316731504ecf4138b42d1b2748d3536c96664bf97f"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_RtSolver.H",
+        "bytes":  14060,
+        "sha256":  "ad55a51d57673d12e19609c5987b8365d5be2b9fa21fecca3f3ebbf6c6b03f3b"
+    },
+    {
+        "path":  "solver_overlay/Source/RadiativeTransfer/CD_RtSolver.cpp",
+        "bytes":  10804,
+        "sha256":  "ec48c102c8eaf5ea1c2c65b223f53f0dc6d24e874f694d91a7a9c9f63ed14c81"
+    }
+]

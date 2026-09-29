@@ -1,0 +1,136 @@
+/* chombo-discharge
+ * Copyright © 2021 SINTEF Energy Research.
+ * Please refer to Copyright.txt and LICENSE in the chombo-discharge root directory.
+ */
+
+/*!
+  @file   CD_EBHelmholtzLarsenEBBCFactory.H
+  @brief  Declaration of a Electrostatic boundary condition class for MFHelmholtzOp.
+  @author Robert Marskar
+*/
+
+#ifndef CD_EBHelmholtzLarsenEBBCFactory_H
+#define CD_EBHelmholtzLarsenEBBCFactory_H
+
+// Std includes
+#include <functional>
+
+// Our includes
+#include <CD_RtSpecies.H>
+#include <CD_EBHelmholtzRobinEBBCFactory.H>
+#include <CD_NamespaceHeader.H>
+
+/*!
+  @brief Class for making Larsen boundary conditions 
+*/
+class EBHelmholtzLarsenEBBCFactory : public EBHelmholtzRobinEBBCFactory
+{
+public:
+  /*!
+    @brief Alias for absorption coefficient function
+  */
+  using KappaFunction = std::function<Real(const RealVect& a_position)>;
+
+  /*!
+    @brief Disallowed weak constructor
+  */
+  EBHelmholtzLarsenEBBCFactory() = delete;
+
+  /*!
+    @brief Constructor. Source term is set to zero. 
+    @param[in] a_order   Stencil order
+    @param[in] a_weight  Equation weights (in least squares)
+    @param[in] a_species Radiative transfer species
+    @param[in] a_r1      "First reflection coefficient"
+    @param[in] a_r2      "Second reflection coefficient"
+    @param[in] a_source  "Source term
+    @details Larsen coefficients (in Robin format) are set based on kappa and reflection coefficients. 
+  */
+  EBHelmholtzLarsenEBBCFactory(const int                       a_order,
+                               const int                       a_weight,
+                               const RefCountedPtr<RtSpecies>& a_species,
+                               const Real                      a_r1,
+                               const Real                      a_r2,
+                               const Real                      a_source);
+
+  /*!
+    @brief Constructor with externally supplied absorption coefficient.
+    @param[in] a_order         Stencil order
+    @param[in] a_weight        Equation weights
+    @param[in] a_species       Radiative transfer species
+    @param[in] a_r1            "First reflection coefficient"
+    @param[in] a_r2            "Second reflection coefficient"
+    @param[in] a_source        Source term
+    @param[in] a_kappaFunction Absorption coefficient
+  */
+  EBHelmholtzLarsenEBBCFactory(const int                       a_order,
+                               const int                       a_weight,
+                               const RefCountedPtr<RtSpecies>& a_species,
+                               const Real                      a_r1,
+                               const Real                      a_r2,
+                               const Real                      a_source,
+                               const KappaFunction             a_kappaFunction);
+
+  /*!
+    @brief No copy construction
+  */
+  EBHelmholtzLarsenEBBCFactory(const EBHelmholtzLarsenEBBCFactory& a_other) = delete;
+
+  /*!
+    @brief No move construction
+  */
+  EBHelmholtzLarsenEBBCFactory(const EBHelmholtzLarsenEBBCFactory&& a_other) = delete;
+
+  /*!
+    @brief Default constructor
+  */
+  virtual ~EBHelmholtzLarsenEBBCFactory();
+
+  /*!
+    @brief No copy assignment
+  */
+  EBHelmholtzLarsenEBBCFactory&
+  operator=(const EBHelmholtzLarsenEBBCFactory& a_other) = delete;
+
+  /*!
+    @brief No move assignment
+  */
+  EBHelmholtzLarsenEBBCFactory&
+  operator=(const EBHelmholtzLarsenEBBCFactory&& a_other) = delete;
+
+protected:
+  /*!
+    @brief Radiative transfer species
+  */
+  RefCountedPtr<RtSpecies> m_species;
+
+  /*!
+    @brief "First reflection coefficient"
+  */
+  Real m_r1;
+
+  /*!
+    @brief "Second reflection coefficient"
+  */
+  Real m_r2;
+
+  /*!
+    @brief Source term
+  */
+  Real m_source;
+
+  /*!
+    @brief Absorption coefficient
+  */
+  KappaFunction m_kappaFunction;
+
+  /*!
+    @brief Set Robin coefficients
+  */
+  void
+  setRobinCoefficients();
+};
+
+#include <CD_NamespaceFooter.H>
+
+#endif

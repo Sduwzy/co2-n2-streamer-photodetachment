@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.runtime/
+build/
+runs/
+*.hdf5
+*.ex
+*.o
+*.a
+*.log
+

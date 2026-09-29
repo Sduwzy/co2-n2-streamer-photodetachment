@@ -1,0 +1,42 @@
+{
+  "snapshot_date": "2026-09-29",
+  "upstream_url": "https://github.com/chombo-discharge/chombo-discharge.git",
+  "upstream_commit": "faf3787b04ae1341f9a16f9e4327e30d2590c815",
+  "submodules": [
+    "8a0b6264326b3e42cb6127b9ab17bfaaf225df3f Submodules/Chombo-3.3 (heads/master)",
+    " 46f13569c3598e5ddde3ab7946bc0bf25eaf7c4d Submodules/EBGeometry (46f1356)",
+    " ef556019be51ba3db32854e2a491b4ccb540a2c8 Submodules/json (v3.10.1-48-gef556019)"
+  ],
+  "overlay_files": [
+    "Physics/CdrPlasma/CD_CdrPlasmaPhysics.H",
+    "Physics/CdrPlasma/CD_CdrPlasmaStepper.H",
+    "Physics/CdrPlasma/CD_CdrPlasmaStepper.cpp",
+    "Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaJSON.H",
+    "Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaJSON.cpp",
+    "Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaPhotoReactionJSON.H",
+    "Physics/CdrPlasma/PlasmaModels/CdrPlasmaJSON/CD_CdrPlasmaPhotoReactionJSON.cpp",
+    "Physics/CdrPlasma/Timesteppers/CdrPlasmaGodunovStepper/CD_CdrPlasmaGodunovStepper.cpp",
+    "Physics/CdrPlasma/Timesteppers/CdrPlasmaImExSdcStepper/CD_CdrPlasmaImExSdcStepper.cpp",
+    "Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBC.H",
+    "Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBC.cpp",
+    "Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBCFactory.H",
+    "Source/RadiativeTransfer/CD_EBHelmholtzEddingtonSP1DomainBCFactory.cpp",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBC.H",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBC.cpp",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBCFactory.H",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenDomainBCFactory.cpp",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenEBBCFactory.H",
+    "Source/RadiativeTransfer/CD_EBHelmholtzLarsenEBBCFactory.cpp",
+    "Source/RadiativeTransfer/CD_EddingtonSP1.H",
+    "Source/RadiativeTransfer/CD_EddingtonSP1.cpp",
+    "Source/RadiativeTransfer/CD_RtSolver.H",
+    "Source/RadiativeTransfer/CD_RtSolver.cpp"
+  ],
+  "case_source_directories": {
+    "discrete_pure": "agent/Omori_pure_CO3m1E8_run",
+    "discrete_mixture": "agent/Omori_mix_N2_25p3_CO3m1E8_run",
+    "continuum_r3_only": "Omori_Reproduction/cases_n2_gorig_r3s22_r4scan/r4z",
+    "continuum_r3_r4": "Omori_Reproduction/cases_n2_gorig_r3s22_r4scan/r4m21"
+  },
+  "validation": "Source snapshot only; no complete trajectory rerun performed during packaging."
+}
